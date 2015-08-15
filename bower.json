@@ -1,0 +1,17 @@
+{
+  "name": "youdu",
+  "version": "0.0.0",
+  "homepage": "https://github.com/zguangyu/youdu",
+  "authors": [
+    "Guangyu Zhang <zguangyu123@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/bower",
+    "test",
+    "tests"
+  ]
+}

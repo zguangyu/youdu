@@ -51,6 +51,7 @@ coverage.xml
 *.log
 db.sqlite3
 settings_local.py
+static/bower/
 
 # Sphinx documentation
 docs/_build/
