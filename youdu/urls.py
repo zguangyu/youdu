@@ -16,6 +16,13 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 
+from youdu.weixin import weixin_init, weixinapi
+
+from main.views import *
+
 urlpatterns = [
+    url(r'^$', home),
+    url(r'^weixin/?$', weixinapi),
+    url(r'^weixin/init/?$', weixin_init),
     url(r'^admin/', include(admin.site.urls)),
 ]
