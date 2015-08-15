@@ -8,13 +8,13 @@ MENU = {
     'button':[
         {
             'type': 'view',
-            'name': u'游你定',
-            'url': url_redirect % {'appid':settings.WECHAT_APPID, 'uri':urllib.parse.quote_plus('http://weixin.guangyu.me/'), 'scope':'snsapi_base'}
+            'name': '游你定',
+            'url': url_redirect % {'appid':settings.WECHAT_APPID, 'uri':urllib.parse.quote_plus('http://youdu.guangyu.me/'), 'scope':'snsapi_base'}
         },
         {
             'type': 'view',
-            'name': u'聚宝盆',
-            'url': url_redirect % {'appid':settings.WECHAT_APPID, 'uri':urllib.parse.quote_plus('http://weixin.guangyu.me/'), 'scope':'snsapi_base'}
+            'name': '聚宝盆',
+            'url': url_redirect % {'appid':settings.WECHAT_APPID, 'uri':urllib.parse.quote_plus('http://youdu.guangyu.me/'), 'scope':'snsapi_base'}
         },
     ]
 }
